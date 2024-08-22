@@ -1,0 +1,308 @@
+body, div, main, input 
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+body{
+    background-color: #BBBBBB;
+
+}
+.header{
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
+    display:flex ;
+}
+.text-menu ,
+.text-menu1 {
+    color:white ;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.box-logo{
+    width: 15%;
+}
+.box-meio{
+    width: 60%;
+}
+.box-pesquisa{
+    width: 25%;
+}
+.img-logo{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.text-menu1{
+    margin-left: 20%;
+}
+.text-menu{
+    margin-left: 10%;
+
+}
+.acertos{
+    margin-top: 45px;
+}
+.pesquisa{
+    width: 73%;
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.carrossel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 100%; /* 100% para cada slide */
+    animation: slideAnimation 20s infinite;
+}
+
+.slide {
+    width: 100%;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(-0%); }
+}
+.marcas{
+    width: 100%;
+    background-color: #BBBBBB;
+    height: 180px;
+    display: flex;
+    gap: 13%;
+}
+
+.box-redondo1{
+    width: 30%;
+
+    display: flex;
+    margin-left: 12%;
+    gap: 35%;
+
+}
+
+.box-redondo2{
+    width: 30%;
+
+    display: flex;
+    gap: 35%;
+}
+.img-logom1{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 45px;
+}
+.img-logom2{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.img-logom3{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.img-logom4{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+.redondo{
+    width: 35%;
+    background-color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 100%;
+
+}
+.faixada{
+    width: 100%;
+    background-color: #000000;
+    height: 100px;
+    display: flex;
+    font-size: 25px;
+}
+.frase1{
+    font-family: 'Julius Sans One', sans-serif;
+    width: 50%;
+    color: white;
+}
+.frase2{
+    font-family: 'Julius Sans One', sans-serif;
+    width: 50%;
+    color: white;
+    
+}
+.tenta{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    
+}
+.frase1 span {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.tenta1{
+    margin-top: 30px;
+    
+}
+
+
+
+
+.carrossel2 {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #D9D9D9;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lista,
+.lista2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.produto,
+.produto2 {
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    min-width: 25%; /* Ajuste conforme o número de produtos visíveis */
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+
+.produto img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+.produto2 img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.seta,
+.seta2 {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000000;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.esquerda,
+.esquerda2 {
+    left: 0;
+}
+
+.direita,
+.direita2 {
+    right: 0;
+}
+.frasep{
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -60px;
+    left: 25%;
+
+}
+.rodape{
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.textroda{
+    color: white;
+}
+.ajuste{
+    margin-top: 50px;
+}
+::placeholder{
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+.fa-thin{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 1440px;
+    top: 48px;
+
+
+}
+
+.rodape{
+    background-color: #000000;
+    margin-top: 10px;
+    height: 195px;
+    width: 100%;
+}
+.text-rodape{
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.text-rodape2{
+    color: white;
+    text-align: center;
+    padding-top: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.text-rodape3{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
